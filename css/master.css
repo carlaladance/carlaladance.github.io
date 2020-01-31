@@ -1,0 +1,35 @@
+body{
+  background: linear-gradient(blue,hotpink,purple);
+  margin:0;
+  color:white;
+}
+
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
+.wrapper{
+  /* width:100vw; */
+  /* height:100vh; */
+  /* display:flex; */
+  /* justify-content: space-around; */
+  text-align: center;
+}
+
+.container{
+  margin:auto;
+}
+
+.enterlogo{
+  font-size:200px;
+  display:block;
+  margin: auto;
+  margin-top:100px;
+}
+
+.enterbutton{
+  font-size: 80px;
+  display:inline;
+  text-align: center;
+}

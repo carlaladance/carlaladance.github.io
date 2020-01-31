@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>⚡charging⚡...</title>
+    <!-- <link rel="stylesheet" href="/css/master.css"> -->
+  </head>
+  <style>
+    body{
+      background:linear-gradient(blue,grey);
+    }
+    .message{
+      position:fixed;
+      right:30px;
+      top:30px;
+      transform: scaleY(0);
+      transition: 0.4s all ease-in-out;
+      background-color: white;
+    }
+    #carlala{
+      margin-left:60px;
+    }
+  </style>
+  <body>
+    <img id="carlala" src="images/charging.png" height="1000px" onclick="clickHer()">
+    <div class="message">Stop that I'm charging!</div>
+
+    <script>
+      let carlala=document.querySelector('#carlala');
+      let msg=document.querySelector('.message');
+      msg.style.transform="scaleY(0)"
+      function clickHer(){
+        let msg=document.querySelector('.message');
+        if(msg.style.transform=="scaleY(0)"){
+          msg.style.transform="scaleY(1)"
+        }
+        else{
+          msg.style.transform="scaleY(0)";
+        }
+      }
+    </script>
+  </body>
+</html>
