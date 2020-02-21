@@ -27,8 +27,22 @@ div{
 }
 #outcome{
   padding:20px;
+  margin:auto;
+  /* width:400px; */
 }
 h1{
   font-weight: 100;
   font-family: sans-serif;
+}
+.noun,.adjective,.verb1,.verb2,.verb3{
+
+}
+span{
+
+}
+
+.verb3{
+  background-color:lightgrey;
+  display:inline-block;
+  /* width:100%; */
 }

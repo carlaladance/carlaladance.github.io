@@ -1,13 +1,9 @@
 {
-    "noun":   [
-      "smile","fire","earth","water","plastic","reflection","lock","me","haze","concrete","music","song","person","robot","voice","heart","the future","the past","the present","you","me","the top","the bottom","my body","my data","my hair","my love","consciousness","soul","thought"
-    ],
-    "adjective":   [
-      "loose","strong","lovely","beautiful","dark","light","fun","hard","easy","burning","future","former","mysterious","evil","good","wonderous","magical","with","lost","found","empty","broken","incomplete","infinite","sharp","piercing","syncing"
-    ],
-   "verb":   [
-     "loving","singing","dancing","saving","hurting","failing","running","falling","rushing","relaxing","eating","knowing","not knowing","wondering","imagining","swimming","flying","am","fading","thinking","growing","fixing","trying","speaking",
-     "love","sing","dance","save","hurt","fail","run","fall","rush","relax","eat","know","not know","wonder","imagine","swim","fly","am","fade","think","grow","fix","try","speak"
-   ]
-
+   "noun":   ["smile","fire","earth","water","plastic","reflection","lock","me","haze","concrete","music","song","person","robot","voice","heart","the future","the past","the present","you","me","the top","the bottom","my body","my data","my hair","my love","consciousness","soul","thought","object","hue","color","loop","simulation","mirror","head","world","reason","place","girl","display","machine","memory","particles","interface","image"],
+   "adjective": ["loose","strong","lovely","beautiful","dark","light","fun","hard","easy","burning","future","former","mysterious","evil","good","wonderous","magical","with","lost","found","empty","broken","incomplete","infinite","sharp","piercing","syncing","moving","perfect","imperfect","virtual","cybernetic","pop","normal","secretive","open","inside-out","digital","undigital","physical","liquid",""],
+   "verbs":{
+     "infinitive":["love","sing","dance","save","hurt","fail","run","fall","rush","relax","know","not know","wonder","imagine","swim","fly","am","fade","think","grow","fix","try","speak","move"],
+     "past":["loved","sang","danced","saved","hurt","failed","ran","fell","rushed","relaxed","know","not know","wonder","imagine","swam","flew","was","faded","thought","grew","fixed","tried","spoke","moved"],
+     "present":["loving","singing","dancing","saving","hurting","failing","running","falling","rushing","relaxing","eating","knowing","not knowing","wondering","imagining","swimming","flying","am","fading","thinking","growing","fixing","trying","speaking","moving"]
+   }
  }
