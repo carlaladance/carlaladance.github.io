@@ -47,6 +47,7 @@ function createLine(){
     generate(tense)
   }
   output.innerHTML+="<br><br>"
+
 }
 
 
@@ -55,7 +56,9 @@ function generate(tense){
   let seed = Math.floor(Math.random()*3)
   if(seed==0){
     let rnd=Math.floor(Math.random()*words.noun.length);
-    output.innerHTML+=" <span class='noun'>"+words.noun[rnd]+"</span>";
+    let nounIdx0=Math.floor(Math.random()*words.prenoun0.length);
+    let nounIdx=Math.floor(Math.random()*words.prenoun.length);
+    output.innerHTML+=" "+words.prenoun0[nounIdx0]+words.prenoun[nounIdx]+" <span class='noun'>"+words.noun[rnd]+"</span>";
   }else if(seed==1){
     let rnd=Math.floor(Math.random()*words.adjective.length);
     output.innerHTML+=" <span class='adjective'>"+words.adjective[rnd]+"</span>";
@@ -71,4 +74,13 @@ function generate(tense){
       output.innerHTML+=" <div class='verb3'>"+words.verbs.present[rnd]+"</div>";
     }
   }
+}
+
+function randomColors(){
+  output.querySelectorAll('*').forEach((e)=>{
+    seed=Math.random()*(256*256*256-1);
+    seed2=16777216-seed;
+    e.style.color='#'+Math.floor(seed).toString(16)
+    // e.style.backgroundColor='#'+Math.floor(seed/10).toString(16)
+  })
 }

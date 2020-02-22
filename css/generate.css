@@ -25,10 +25,29 @@ div{
   text-shadow: 1px 1px 1px black;
 
 }
+#color{
+  background-color: #ffff00;
+  font-size: 13px;
+  margin:0;
+  width:10px;
+  font-family: sans-serif;
+  padding: 10px;
+  user-select: none;
+  font-weight: 100;
+  text-shadow: 2px 2px 2px black;
+  transition: all 0.1s ease;
+}
+#color:active{
+  color:blue;
+  text-shadow: 1px 1px 1px black;
+}
 #outcome{
+  padding:10px;
+  font-family: sans-serif;
   padding:20px;
-  margin:auto;
-  /* width:400px; */
+  /* margin:auto; */
+  font-weight: 100;
+  width:400px;
 }
 h1{
   font-weight: 100;
@@ -38,11 +57,10 @@ h1{
 
 }
 span{
-
 }
 
 .verb3{
   background-color:lightgrey;
-  display:inline-block;
+  /* display:inline-block; */
   /* width:100%; */
 }
